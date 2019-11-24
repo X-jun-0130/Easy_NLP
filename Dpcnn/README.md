@@ -39,8 +39,8 @@ knenel_sice = 3
 ## 4.shortcut connection
 随着网络层加深，每层的输入很容易接近0，主要作用是为了缓解梯度消失问题
 
-feature maps number:
-继续增加数量，并不能增加准确度，反而会增加计算量。
+## feature maps number:
+增加数量，并不能增加准确度，反而会增加计算量。
 
 # 数据集：
 本实验是使用THUCNews的一个子集进行训练与测试，数据集请自行到THUCTC：一个高效的中文文本分类工具包下载，请遵循数据提供方的开源协议;
