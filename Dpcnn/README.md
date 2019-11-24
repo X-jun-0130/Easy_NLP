@@ -5,8 +5,6 @@ num_filters = 250
 
 knenel_sice = 3
 
-embedding_dim = 100
-
 ## 1.region embedding
 对embedding进行一次卷积(valid)(3gram)，后产生的结果。此操作和TEXTCnn底层一致。
 
@@ -60,4 +58,5 @@ self.embedding = tf.keras.layers.Embedding(10000, 100,
 
 # 总结
 总得来说，Dpcnn模型并不复杂，效果很棒
+数据使用的是以前的老数据，所有预训练词向量也用的是以前的。
 tensorflow2.0真的是简化了很多，还有很多小细节，我需要继续学习。
