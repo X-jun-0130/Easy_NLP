@@ -67,11 +67,14 @@ self.embedding = tf.keras.layers.Embedding(10000, 100,
                                            trainable=False)
 ```
 下面就是主模型，跟上面介绍的 卷积层 过程一致。
+
 实验效果：
 
 epoch2:
 ![epoch2](https://github.com/NLPxiaoxu/Easy_NLP/blob/master/Dpcnn/image/epoch2.png)
 
+epoch5:
+![epoch5](https://github.com/NLPxiaoxu/Easy_NLP/blob/master/Dpcnn/image/epoch5.png)
 # 总结
 总得来说，Dpcnn模型并不复杂，效果很棒
 数据使用的是以前的老数据，所有预训练词向量也用的是以前的。
