@@ -34,7 +34,7 @@ knenel_sice = 3
 10.对pooling进行全连接，然后再接softmax层。
 
 ## 3.max_pooling
-每次max_pooling都是strides = 2,因此，随着深度增加，每次卷积的计算量都是减半的，网络层看着形似‘金字塔’;文章中称这种行为叫Downsamoling。
+每次max_pooling都是strides = 2,因此，随着深度增加，每次卷积的计算量都是减半的，网络层看着形似‘金字塔’;文章中称这种行为叫Downsampling。
 
 ## 4.shortcut connection
 随着网络层加深，每层的输入很容易接近0，主要作用是为了缓解梯度消失问题
