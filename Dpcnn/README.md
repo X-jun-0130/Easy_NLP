@@ -70,8 +70,8 @@ self.embedding = tf.keras.layers.Embedding(10000, 100,
 
 实验效果：
 
-epoch2:
-![epoch2](https://github.com/NLPxiaoxu/Easy_NLP/blob/master/Dpcnn/image/epoch2.png)
+epoch3:
+![epoch3](https://github.com/NLPxiaoxu/Easy_NLP/blob/master/Dpcnn/image/epoch3.png)
 
 epoch5:
 ![epoch5](https://github.com/NLPxiaoxu/Easy_NLP/blob/master/Dpcnn/image/epoch5.png)
